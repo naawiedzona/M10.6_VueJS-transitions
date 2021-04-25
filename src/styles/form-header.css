@@ -1,0 +1,25 @@
+#form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+#form-title {
+    color: #42b983;
+    flex:1;
+    
+}
+.btn {
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 6px;
+}
+#btn-close {
+    background-color: #cc444b;
+    border: 1px solid #cc444b;
+    margin-right: 20px;
+}
+#btn-close:hover{
+    color: #cc444b;
+    background-color: rgba(255, 255, 255, 0.685);
+}

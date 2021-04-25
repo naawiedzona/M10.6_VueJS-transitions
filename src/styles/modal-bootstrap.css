@@ -1,0 +1,11 @@
+.appear{
+    display: block;
+    opacity: 1 !important;
+  }
+
+  .modal{
+    border: 1px solid #42b983;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+  }

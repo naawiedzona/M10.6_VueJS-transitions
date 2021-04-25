@@ -1,0 +1,24 @@
+#movie-finder-page {
+    text-align: center;
+    width: 100vw;
+    position:relative;
+  }
+  #header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  #app-title{
+    color: #42b983;
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 70%;
+    line-height: 120px;
+    font-size: 60px;
+    position: absolute;
+    margin-top: 170px;
+  }
+  img{
+    width: 70%;
+    max-height: 500px;
+    vertical-align: top;
+  }

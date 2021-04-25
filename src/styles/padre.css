@@ -1,0 +1,28 @@
+
+  #exampleModalLabel{
+    color: #42b983;
+    font-size: 30px;
+  }
+  .btn-primary,.btn-outline-primary{
+    background-color: #42b983;
+    border: 1px solid #42b983;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 40px;
+  }
+  .btn-primary:hover{
+    border: 1px solid #42b983;
+    background-color: white;
+    color: #42b983;
+  }
+
+  .mensajeFinal{
+    color: gold;
+    font-size: 30px;
+    border: 1px solid gold;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+  }

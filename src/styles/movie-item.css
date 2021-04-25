@@ -1,0 +1,35 @@
+#movie-item{
+    border: 1px solid #42b983;
+    margin: 10px;
+    width:350px;
+    background-color: rgba(255, 254, 254, 0.527);
+    position: relative;
+}
+#movie-item:hover{
+    background-color: #f1fbf7;
+}
+.movie-title{
+    border-bottom: 1px solid #42b983;
+    color: #42b983;
+    padding: 10px;
+    height: 65px;
+    margin-top: 0;
+    
+}
+.movie-description{
+    padding: 15px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.small-text{
+  color: green;
+  position: absolute;
+  bottom: 1px;
+  font-size: 15px;
+}
+.small-text-not{
+  color: rgba(224, 12, 12, 0.678);
+  
+}
