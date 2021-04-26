@@ -1,5 +1,6 @@
 <template>
   <div v-if="showModal">
+    <transition name="fade">
     <ModalBootstrap :change1="change1">
         <template v-slot:slot-header>
               <h5 class="modal-title" id="exampleModalLabel">MoneyExchange</h5>
@@ -15,6 +16,7 @@
           <button type="button" class="btn btn-outline-primary" @click="ToggleModal2">Accept</button>
         </template>
     </ModalBootstrap>
+    </transition>
   </div>
   <div v-else>
             <!-- Button trigger modal -->

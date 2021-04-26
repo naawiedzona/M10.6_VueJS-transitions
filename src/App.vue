@@ -6,7 +6,9 @@
       <router-link to="/modal-slot">Money Exchange</router-link> 
       <router-link to="/form">Contact Form</router-link>
     </div>
+    <transition name="view">
     <router-view/>
+    </transition>
   </div>
 </template>
 
@@ -32,5 +34,20 @@
 }
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.view-enter-active, .view-leave-active{
+transition: opacity 0.5s ease-in-out, transform 0.5s ease;
+}
+.view-enter-active {
+  transition-delay: 0.5s;
+}
+.view-enter, .view-leave-to {
+opacity: 0;
+transform: translateY(-30px);
+}
+.view-enter-to, .view-leave {
+   opacity: 1;
+   transform: translateY(0px);
 }
 </style>

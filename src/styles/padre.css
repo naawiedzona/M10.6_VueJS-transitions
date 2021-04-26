@@ -10,7 +10,7 @@
     padding: 15px;
     font-size: 20px;
     border-radius: 4px;
-    margin-top: 40px;
+    margin: 40px;
   }
   .btn-primary:hover{
     border: 1px solid #42b983;
@@ -25,4 +25,16 @@
     width: 60%;
     margin: 0 auto;
     padding: 10px;
+  }
+
+
+  .fade-enter-active, .fade-leave-active {
+transition: transform 1s;
+  }
+  .fade-enter, .fade-leave-to {
+    transform: translateX(900px);
+  }
+
+  .fade-enter-to, .fade-leave {
+    transform: translateX(0px);
   }
