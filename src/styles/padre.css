@@ -32,7 +32,7 @@
 transition: transform 1s;
   }
   .fade-enter, .fade-leave-to {
-    transform: translateX(900px);
+    transform: translateX(2000px);
   }
 
   .fade-enter-to, .fade-leave {
